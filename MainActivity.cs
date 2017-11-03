@@ -45,15 +45,8 @@ namespace TurdClicker
             turdhealth.Text = turdhp.ToString();
             healthbar.Progress = turdhp;
             if (turdhp <= 0)
-            {
-                btnclicker.Clickable = false;
-                Thread.Sleep(2000);
-                btnclicker.SetImageResource(Resource.Drawable.turd_distressed);
-                
-                Thread.Sleep(2000);
-                btnclicker.SetImageResource(Resource.Drawable.turd_normal);
+            { 
                 turdhp = healthbar.Max;
-                btnclicker.Clickable = true;
             }
         }
     }
