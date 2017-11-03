@@ -67,10 +67,10 @@ namespace TurdClicker
 		{
 			
 			// aapt resource value: 0x7f050003
-			public const int btn_clicker = 2131034115;
+			public const int btnclicker = 2131034115;
 			
-			// aapt resource value: 0x7f050005
-			public const int healthbar = 2131034117;
+			// aapt resource value: 0x7f050004
+			public const int healthbar = 2131034116;
 			
 			// aapt resource value: 0x7f050000
 			public const int linearLayout1 = 2131034112;
@@ -81,8 +81,8 @@ namespace TurdClicker
 			// aapt resource value: 0x7f050002
 			public const int turd1_value_viewer = 2131034114;
 			
-			// aapt resource value: 0x7f050004
-			public const int turdhealth = 2131034116;
+			// aapt resource value: 0x7f050005
+			public const int turdhealth = 2131034117;
 			
 			static Id()
 			{

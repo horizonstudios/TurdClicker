@@ -4,7 +4,7 @@
   <uses-sdk android:minSdkVersion="4" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-  <application android:allowBackup="true" android:label="@string/app_name" android:icon="@drawable/turd_default" android:name="android.app.Application" android:debuggable="true">
+  <application android:allowBackup="true" android:icon="@drawable/turd_default" android:name="android.app.Application" android:label="TurdClicker.TurdClicker" android:debuggable="true">
     <activity android:label="TurdClicker" android:name="md53fb2ce78b80914e88017860b0835b6c8.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

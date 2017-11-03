@@ -20,21 +20,19 @@
             p1:src="@drawable/turd_normal"
             p1:layout_width="384.5dp"
             p1:layout_height="498.5dp"
-            p1:id="@+id/btn_clicker"
+            p1:id="@+id/btnclicker"
             p1:layout_marginBottom="0.0dp"
             p1:scaleType="fitCenter"
             p1:layout_marginRight="0.0dp" />
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/healthbar" />
         <TextView
             p1:textAppearance="?android:attr/textAppearanceSmall"
             p1:layout_width="match_parent"
             p1:layout_height="wrap_content"
             p1:id="@+id/turdhealth" />
-        <ProgressBar
-            style="?android:attr/progressBarStyleHorizontal"
-            p1:layout_width="match_parent"
-            p1:layout_height="wrap_content"
-            p1:id="@+id/healthbar"
-            p1:progressBackgroundTint="#ffff0000"
-            p1:progressTint="#ff008000" />
     </LinearLayout>
 </LinearLayout>
